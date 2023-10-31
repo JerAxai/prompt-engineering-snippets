@@ -1,0 +1,19 @@
+{
+  "@react-useEffect": {
+    "prefix": "@react-useEffect",
+    "body": [
+      "/**",
+      " * ${1:effect依赖}副作用",
+      " * @desc ${2:effect描述}",
+      " * @since $CURRENT_YEAR年$CURRENT_MONTH月$CURRENT_DATE日 $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      " */",
+      "useEffect(() => {",
+      "   ${3:// effect副作用体，可以简述一下发生什么}",
+      "   return () => {",
+      "     ${4:// cleanup function}",
+      "   }",
+      "}, [${1:effect依赖}])"
+    ],
+    "description": "useEffect快速提示"
+  }
+}

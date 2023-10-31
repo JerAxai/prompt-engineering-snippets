@@ -1,0 +1,66 @@
+{
+  "@fn-normal": {
+    "prefix": "@fn-normal",
+    "body": [
+      "/**",
+      " * ${1:方法名称}",
+      " * @description ${2:方法描述} --- do this step by step ---",
+      " * @param {${3:入参类型}} ${4:入参名} - ${5:入参描述}",
+      " * @returns {${6:返回类型}} ${7:返回描述}",
+      " * @since $CURRENT_YEAR年$CURRENT_MONTH月$CURRENT_DATE日 $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      " */"
+    ],
+    "description": "一般方法，普通注释，适用于结构简单的方法"
+  },
+  "@fn-steps": {
+    "prefix": "@fn-steps",
+    "body": [
+      "/**",
+      " * ${1:方法名称}",
+      " * @description ${2:方法描述} 步骤如下：",
+      " * - step1 ${3: 步骤1}",
+      " * - step2 ${4: 步骤2}",
+      " * --- do this step by step ---",
+      " * @param ${5:参数类型} ${6:参数名} - ${7:参数描述}",
+      " * @since $CURRENT_YEAR年$CURRENT_MONTH月$CURRENT_DATE日 $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      " */"
+    ],
+    "description": "步骤方法，适用于复杂的方法，需要分步骤描述"
+  },
+  "@fn-api": {
+    "prefix": "@fn-api",
+    "body": [
+      "/**",
+      " * ${1:接口名：METHOD_DO_SOMETHING}",
+      " * @description ${2:接口描述}",
+      " * @author ${3:接口作者}",
+      " * @path ${4:接口path:/xx/xx}",
+      " * @constructor ${5:请求结构：request('METHOD', 'url', data)}",
+      " * @since $CURRENT_YEAR年$CURRENT_MONTH月$CURRENT_DATE日 $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      " */"
+    ],
+    "description": "接口方法，适用于api接口注释"
+  },
+  "@fn-enum": {
+    "prefix": "@fn-enum",
+    "body": [
+      "/**",
+      " * ${1:枚举名称}",
+      " * @description ${2:枚举描述，key的规则}",
+      " * @enum {${3:key}: ${4:value}} - 枚举项",
+      " * @example ${5:枚举示例}",
+      " */"
+    ],
+    "description": "定义枚举，适用于枚举注释"
+  },
+  "@fn-param": {
+    "prefix": "@fn-param",
+    "body": ["@param {${1:入参类型}} ${2:入参名} - ${3:入参描述}"],
+    "description": "定义参数，适用于参数注释"
+  },
+  "@fn-step": {
+    "prefix": "@fn-step",
+    "body": ["- step${1: 步骤序号} ${2: 步骤描述}"],
+    "description": "定义步骤，适用于步骤注释"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "@vue3-watch": {
+    "prefix": "@vue3-watch",
+    "body": [
+      "/**",
+      " * watch ${1:effect}",
+      " * @desc ${2:描述watch逻辑}",
+      " * @option ${3:deep/immediate} ${4:true/false}",
+      " */",
+      "watch(${1:effect}, (newValue, oldValue) => {",
+      "}"
+    ],
+    "description": "定义vue3的watch"
+  },
+  "@vue-prop": {
+    "prefix": "@vue-prop",
+    "body": [
+      "/** @prop {${1:prop类型}} ${2:prop名称} - ${3:描述，可提示默认值} */"
+    ],
+    "description": "定义vue 的props"
+  }
+}
