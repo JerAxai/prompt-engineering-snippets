@@ -1,6 +1,6 @@
 {
-  "@react-useEffect": {
-    "prefix": "@react-useEffect",
+  "@react-uef": {
+    "prefix": "@react-uef",
     "body": [
       "/**",
       " * ${1:effect依赖}副作用",
@@ -8,12 +8,19 @@
       " * @since $CURRENT_YEAR年$CURRENT_MONTH月$CURRENT_DATE日 $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
       " */",
       "useEffect(() => {",
-      "   ${3:// effect副作用体，可以简述一下发生什么}",
       "   return () => {",
-      "     ${4:// cleanup function}",
+      "     ${3:// cleanup function}",
       "   }",
       "}, [${1:effect依赖}])"
     ],
     "description": "useEffect快速提示"
+  },
+  "@react-ust": {
+    "prefix": "@react-ust",
+    "body": [
+      "/** @state @param {${1:类型}} ${2:state} - ${3:描述，可提示默认值} */",
+      "const [${2:state}, set${2/(.*)/${1:/capitalize}/}] = useState(${4:initialState})"
+    ],
+    "description": "useState快速提示"
   }
 }

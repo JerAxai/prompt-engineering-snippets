@@ -4,7 +4,7 @@
     "body": [
       "/**",
       " * ${1:方法名称}",
-      " * @description ${2:方法描述} --- do this step by step ---",
+      " * @description ${2:方法描述}",
       " * @param {${3:入参类型}} ${4:入参名} - ${5:入参描述}",
       " * @returns {${6:返回类型}} ${7:返回描述}",
       " * @since $CURRENT_YEAR年$CURRENT_MONTH月$CURRENT_DATE日 $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
@@ -35,7 +35,7 @@
       " * @description ${2:接口描述}",
       " * @author ${3:接口作者}",
       " * @path ${4:接口path:/xx/xx}",
-      " * @constructor ${5:请求结构：request('METHOD', 'url', data)}",
+      " * @constructor ${5:请求结构：request(method, url, data)}",
       " * @since $CURRENT_YEAR年$CURRENT_MONTH月$CURRENT_DATE日 $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
       " */"
     ],

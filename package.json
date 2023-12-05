@@ -1,13 +1,13 @@
 {
   "name": "prompt-helper",
   "icon": "docs/images/icon.jpg",
-  "displayName": "Prompt-Helper",
-  "description": "",
-  "version": "1.0.0-beta2",
+  "displayName": "Prompt-Helper for front-end snippets",
+  "description": "This is a VS Code plugin for quickly generating JSDoc-style comments. Used for common front-end structured comments to facilitate triggering copilot",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.80.0"
   },
-  "publisher": "JerAxai",
+  "publisher": "TomaLau",
   "repository": {
     "type": "git",
     "url": "https://github.com/JerAxai/prompt-engineering-snippets.git"
@@ -21,11 +21,27 @@
         "path": "./snippets/tool.code-snippets"
       },
       {
-        "language": "javascript,javascriptreact,typescript,typescriptreact",
+        "language": "javascript",
         "path": "./snippets/fn.code-snippets"
       },
       {
-        "language": "javascriptreact,typescriptreact",
+        "language": "javascriptreact",
+        "path": "./snippets/fn.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/fn.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/fn.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
         "path": "./snippets/react.code-snippets"
       },
       {

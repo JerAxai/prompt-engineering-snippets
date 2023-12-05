@@ -1,6 +1,6 @@
-# prompt-engineering-snippets
+# Prompt-Helper
 
-这是一个用于快速生成提示词注释的 VS Code 插件。用于常见的前端结构化提示词注释。
+这是一个用于快速生成 JSDoc 风格注释的 VS Code 插件。用于常见的前端结构化注释，便于触发 copilot。
 
 ## 特性
 
@@ -8,14 +8,7 @@
 
 ## 安装
 
-~~在 VS Code 中搜索`prompt-engineering-snippets`并安装。~~  
-虽然我也想这样。
-
-### But Actrually ！！！
-
-请通过 `"扩展"` — `"..."` — `"从 VSIX 安装"` 如图：
-
-![安装](docs/images/install.jpg)
+在 VS Code 中搜索`Prompt-Helper`并安装。
 
 ## 使用
 
@@ -48,15 +41,16 @@
 输入 `@react-` 后快速选择对应片段，可实现 react 常用的代码片段注释  
 | Prefix | Description |
 | ------------: | -------------------------------------------------- |
-| `@react-useEffect→` | `快速定义可提示的react副作用钩子` |
+| `@react-uef` | `快速定义可提示的react副作用钩子` |
+| `@react-ust` | `快速定义可提示的react状态钩子` |
 
 ### @tool-\* 提示工具片段
 
 输入 `@tool-` 后快速选择对应片段，可套用常用的 prompt 提示框架  
 | Prefix | Description |
 | ------------: | -------------------------------------------------- |
-| `@tool-ra→` | `快速生成Re-Act提问框架` |
-| `@tool-fs→` | `快速生成few-shot提问框架` |
+| `@tool-r*a→` | `快速生成Re-Act提问框架` |
+| `@tool-f*s→` | `快速生成few-shot提问框架` |
 
 ## 贡献
 
