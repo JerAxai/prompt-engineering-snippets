@@ -3,7 +3,7 @@
   "icon": "docs/images/icon.jpg",
   "displayName": "Prompt-Helper for front-end snippets",
   "description": "This is a VS Code plugin for quickly generating JSDoc-style comments. Used for common front-end structured comments to facilitate triggering copilot",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -45,7 +45,6 @@
         "path": "./snippets/react.code-snippets"
       },
       {
-        "language": "javascript",
         "path": "./snippets/vue.code-snippets"
       }
     ]

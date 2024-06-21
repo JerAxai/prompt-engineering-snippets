@@ -14,9 +14,28 @@
   },
   "@vue-prop": {
     "prefix": "@vue-prop",
-    "body": [
-      "/** @prop {${1:prop类型}} ${2:prop名称} - ${3:描述，可提示默认值} */"
-    ],
+    "body": ["/** @prop {${1:prop类型}} ${2:prop名称} - ${3:描述，可提示默认值} */"],
     "description": "定义vue 的props"
+  },
+  "@vue3-computed": {
+    "prefix": "@vue3-computed",
+    "body": [
+      "/**",
+      " * @computed ${1:effect}",
+      " * @desc ${2:描述computed逻辑}",
+      " */",
+      "const ${1:effect} = computed(() => {",
+      "  return ''",
+      "})"
+    ],
+    "description": "定义vue3的computed"
+  },
+  "@vue3-ref": {
+    "prefix": "@vue3-ref",
+    "body": [
+      "/** @ref ${1:refName} @type {${2: 类型}} - ${3:描述}，默认值：${4:defaultValue} */",
+      "const ${1:refName} = ref(${4:defaultValue})"
+    ],
+    "description": "定义vue3的ref"
   }
 }
