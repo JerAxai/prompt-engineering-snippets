@@ -4,6 +4,11 @@ All notable changes to the "prompt-engineering-snippets" extension will be docum
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [1.0.5]
 
-- Initial release
+- new features :
+  - @vue3-computed
+  - @vue3-ref
+  - @tool-timelog-js
+  - @tool-timelog-html
+  - @anregion
